@@ -1,6 +1,5 @@
 import React from 'react';
 import SearchForm from "@/components/SearchForm";
-import Image from "next/image";
 import StartupCards, {StartupTypeCard} from "@/components/StartupCards";
 import {STARTUP_QUERIES} from "@/sanity/lib/queries";
 import {sanityFetch, SanityLive} from "@/sanity/lib/live";
