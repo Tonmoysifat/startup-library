@@ -40,10 +40,10 @@ const Page = async ({params}: { params: Promise<{ id: string }> }) => {
                             <Image src={post.author?.image} alt="avater"
                                    width={64} height={64}
                                    className="rounded-full drop-shadow-lg"/>
-                            <p className="text-20-medium">{post.author.name}</p>
+                            <p className="text-20-medium line-clamp-1">{post.author.name}</p>
                             <p className="text-16-medium !text-black-300">@{post.author.username}</p>
                         </Link>
-                        <p className="category-tag">{post.category}</p>
+                        <p className="category-tag line-clamp-1">{post.category}</p>
                     </div>
                     <h3 className="text-30-bold">Pitch Details</h3>
                     {
